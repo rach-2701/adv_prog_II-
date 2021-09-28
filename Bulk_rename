@@ -1,0 +1,3 @@
+Here as a part of an assignment which required to rename a bulk of files, I have used the following commands executed in a linux subsystem:
+Firstly to create new files with names file1.txt, file2.txt, file3.txt, etc till 10: touch command(e.g.: touch file1.txt file2.txt file3.txt ... file10.txt) 
+Secondly, to rename the file names from file1.txt to rachayita{file}1.txt, etc. I used the following command: rename 's/file/rachayita\{file\}/' *.txt
